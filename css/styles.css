@@ -1,0 +1,70 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.text-regular {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: .8rem;
+
+}
+
+.container {
+    --vertical-margin: 3px;
+    width: 100%;
+    max-width: 60ch;
+    margin: var(--vertical-margin) auto;
+    border: 3px solid black;
+    padding-inline: 2rem;
+    min-height: calc(100dvh - 2 * var(--vertical-margin));
+    box-sizing: border-box;
+}
+
+.heading-main {
+    font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.1;
+    margin-top: 3rem;
+    margin-bottom: 2.5rem;
+}
+
+.heading-sub {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+
+
+.recipe-list {
+    list-style: inside;
+
+    margin-top: 0.5;
+    margin-bottom: 1rem;
+}
+
+
+.steps-list li>* {
+    padding: 0;
+    margin: 0.5rem;
+}
+
+
+
+.header-image {
+    margin-bottom: 1rem;
+}
+
+.ingredient-heading,
+.steps-heading {
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.ingredient-heading-sub {
+    margin: 0rem
+}
+
+.text-center {
+    text-align: center;
+
+}
